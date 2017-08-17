@@ -10,7 +10,6 @@ clickswitch.addEventListener('click', function(e) {
       clickswitch.className = 'switch off';
       body.className = 'dark';
       text.innerText = 'Hey, who turned off the lights?';
-      text.innerText = 'Hey, who turned off the lights?';
   } else if (clickswitch.className === 'switch off') {
       clickswitch.className = 'switch on';
       body.className = 'light';
